@@ -1,0 +1,201 @@
+@media (max-width: 1199.98px) {
+    .lib_img1 {
+        width: 960px;
+    }
+
+    .lib_img4 {
+        width: 960px;
+    }
+
+    .lib_img6 {
+        width: 500px;
+    }
+    .eye::before {
+        right: -10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .lib_img1 {
+        width: 750px;
+    }
+    .lib_img4 {
+        width: 750px;
+    }
+    .lib_img6 {
+        width: 350px;
+    }
+
+    .reviews__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+}
+@media (max-width: 767.98px) {
+    .header__nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .grid__library {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lib_img1 {
+        width: 500px;
+    }
+
+    .lib_img4 {
+        width: 500px;
+    }
+    .collections:before {
+        right: -10px;
+    }
+
+    .team__members {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 575.98px) {
+    .intro {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro__content {
+        text-align: center;
+    }
+
+    .intro__title {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .lib_img1 {
+        width: 380px;
+    }
+
+    .lib_img4 {
+        width: 400px;
+    }
+
+    .review__text {
+        width: 380px;
+        text-align: center;
+    }
+
+    .reviews__content {
+        border: unset;
+    }
+
+    .footer__down {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .review__card {
+        max-width: 400px;
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .review__content {
+        justify-content: center;
+    }
+
+    .review__title {
+        text-align: center;
+    }
+
+    .reviews__info {
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .lib_img1 {
+        width: 300px;
+    }
+    .lib_img4 {
+        width: 300px;
+    }
+    .lib_img2 {
+        width: 300px;
+    }
+    .lib_img3 {
+        width: 300px;
+    }
+    .lib_img5 {
+        width: 300px;
+    }
+    .lib_img6 {
+        width: 290px;
+    }
+
+    .review__title {
+        width: 290px;
+        text-align: center;
+    }
+    .review__text {
+        width: 250px;
+    }
+
+    .review__card {
+        width: 290px;
+        box-shadow: 1px 1px 3px 2px grey;
+    }
+    .footer__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team {
+        margin-top: 70px;
+    }
+
+    .team__info-title {
+        text-align: center;
+    }
+
+    .library__card-title {
+        font-size: 25px;
+        width: 280px;
+        padding: 30px 0 30px 0;
+    }
+
+    .reviews__content {
+        border: unset;
+    }
+
+    .intro__element-content {
+        padding: 17px 12px;
+    }
+
+    .book__icon::before {
+        content: url(../img/book.svg);
+        position: relative;
+        top: -25px
+    }
+
+    .footer__title {
+        font-size: 35px;
+    }
+
+    .footer__text2 {
+        width: 290px;
+    }
+
+
+}

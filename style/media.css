@@ -71,6 +71,10 @@
         align-items: center;
     }
 
+    .intro__bg {
+        width: 350px;
+    }
+
     .intro__content {
         text-align: center;
     }

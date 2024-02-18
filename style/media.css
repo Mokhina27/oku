@@ -1,8 +1,5 @@
 @media (max-width: 1199.98px) {
-    .lib_img1 {
-        width: 960px;
-    }
-
+    .lib_img1,
     .lib_img4 {
         width: 960px;
     }
@@ -16,7 +13,8 @@
 }
 
 @media (max-width: 991.98px) {
-    .lib_img1 {
+    .lib_img1,
+    .lib_img4 {
         width: 750px;
     }
     .lib_img4 {
@@ -46,13 +44,11 @@
         flex-direction: column;
     }
 
-    .lib_img1 {
-        width: 500px;
-    }
-
+    .lib_img1,
     .lib_img4 {
         width: 500px;
     }
+
     .collections:before {
         right: -10px;
     }
@@ -84,12 +80,9 @@
         font-size: 35px;
     }
 
-    .lib_img1 {
-        width: 380px;
-    }
-
+    .lib_img1,
     .lib_img4 {
-        width: 400px;
+        width: 380px;
     }
 
     .review__text {
@@ -129,21 +122,17 @@
 }
 
 @media (max-width: 400px) {
-    .lib_img1 {
-        width: 300px;
-    }
+    .lib_img1,
     .lib_img4 {
-        width: 300px;
+        width: 280px;
     }
-    .lib_img2 {
-        width: 300px;
-    }
-    .lib_img3 {
-        width: 300px;
-    }
+
+    .lib_img2,
+    .lib_img3,
     .lib_img5 {
         width: 300px;
     }
+
     .lib_img6 {
         width: 290px;
     }
